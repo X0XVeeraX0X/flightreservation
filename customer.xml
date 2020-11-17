@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <details>
-    <info id="1">
-        <name>vatsan</name>
-        <age>20</age>
-        <gender>male</gender>
-        <address>xxx</address>
-        <phone>9876948393</phone>
-        <aadhar>xxxx yyyy zzzz</aadhar>
-        <flightdetails>
-            <flightno>F167SF4</flightno>
-            <from>chennai</from>
-            <to>mumbai</to>
-            <amount>2800</amount>
-            <date>30.11.2020</date>
-        </flightdetails>
-    </info>
-    <info id="2">
-        <name>praveen</name>
-        <age>20</age>
-        <gender>male</gender>
-        <address>xxx</address>
-        <phone>9796857687</phone>
-        <aadhar>xxxx yyyy zzzz</aadhar>
-        <flightdetails>
-            <flightno>F167SF4</flightno>
-            <from>chennai</from>
-            <to>delhi</to>
-            <amount>4500</amount>
-            <date>30.11.2020</date>
-        </flightdetails>
-    </info>
-    <info id="3">
-        <name>vignesh</name>
+    <info id="01">
+        <name>selvin</name>
         <age>19</age>
         <gender>male</gender>
-        <address>xxx</address>
-        <phone>8899657687</phone>
-        <aadhar>xxxx yyyy zzzz</aadhar>
+        <address>abc</address>
+        <phone>9655262665</phone>
+        <aadhar>1111 2222 3333</aadhar>
+        <flightdetails>
+            <flightno>f1234</flightno>
+            <from>chennai</from>
+            <to>madurai</to>
+            <amount>2800</amount>
+            <date>20.11.2020</date>
+        </flightdetails>
+    </info>
+    <info id="02">
+        <name>veera</name>
+        <age>20</age>
+        <gender>male</gender>
+        <address>yyy</address>
+        <phone>9095459396</phone>
+        <aadhar>1212 3434 5656</aadhar>
+        <flightdetails>
+            <flightno>f2345</flightno>
+            <from>madurai</from>
+            <to>chennai</to>
+            <amount>2500</amount>
+            <date>28.11.2020</date>
+        </flightdetails>
+    </info>
+    <info id="03">
+        <name>subash</name>
+        <age>20</age>
+        <gender>male</gender>
+        <address>zzz</address>
+        <phone>7010869523</phone>
+        <aadhar>1234 3456 5678</aadhar>
         <flightdetails>
             <flightno>F167SF4</flightno>
             <from>chennai</from>
-            <to>vishakapattinam</to>
-            <amount>1800</amount>
+            <to>coimbatore</to>
+            <amount>2800</amount>
             <date>30.11.2020</date>
         </flightdetails>
     </info>
