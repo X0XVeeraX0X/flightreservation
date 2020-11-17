@@ -6,7 +6,7 @@
         <gender>male</gender>
         <address>abc</address>
         <phone>9655262665</phone>
-        <email>selvin@gmail.com</email>
+        <aadhar>1111 2222 3333</aadhar>
         <flightdetails>
             <flightno>f1234</flightno>
             <from>chennai</from>
@@ -21,7 +21,7 @@
         <gender>male</gender>
         <address>yyy</address>
         <phone>9095459396</phone>
-        <email>veera@gmail.com</email>
+        <aadhar>1212 3434 5656</aadhar>
         <flightdetails>
             <flightno>f2345</flightno>
             <from>madurai</from>
@@ -36,7 +36,7 @@
         <gender>male</gender>
         <address>zzz</address>
         <phone>7010869523</phone>
-        <email>subash@gmail.com</email>
+        <aadhar>1234 3456 5678</aadhar>
         <flightdetails>
             <flightno>f3456</flightno>
             <from>chennai</from>
