@@ -50,19 +50,19 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table="<tr><th>name</th><th>age</th><th>gender</th><th>address</th><th>phone</th><th>emailid</th></tr>";
+  var table="<tr><th>name</th><th>Age</th><th>Gender</th><th>Address</th><th>Phone</th><th>emailid</th></tr>";
   var x = xmlDoc.getElementsByTagName("info");
   for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
-    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Name")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("age")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Age")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("gender")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Gender")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Address")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("phone")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Phone")[0].childNodes[0].nodeValue +
     "</td><td>" +
     x[i].getElementsByTagName("emailid")[0].childNodes[0].nodeValue +
     "</td></tr>";
