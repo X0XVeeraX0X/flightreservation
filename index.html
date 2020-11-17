@@ -13,12 +13,12 @@ body {
   background-color:#blue ;
 }
 img {
-  border: 1px solid black;
+  border: 10px solid black;
 }
 
 h2{
   color:black;
-  font-family: "Lucida Sans Unicode", Gadget, sans-serif;
+  font-family: "Lucida Sans Unicode", Gadget, sans-serif
 }
 
 h3{
@@ -27,14 +27,14 @@ h3{
 }
 </style>
 <body>
-<center><h2>CUSTOMER DOM & XML</h2></center>
-<h3>ONLINE FLIGHT TICKET BOOKING</h3>
+<center><h2>customer XML and DOM</h2></center>
+<h3>ONLINE FLIGHT RESERVATION!!!</h3>
 
-<button type="button" onclick="loadXMLDoc()">TICKET RESERVATION</button>
+<button type="button" onclick="loadXMLDoc()">BOOK TICKETS</button>
 <br><br>
 <table id="demo"></table>
 <br>
-<img src="1.jpg" alt="  " width="300" height="200">
+<img src="1.jpg" alt="DOM" width="300" height="200">
 
 <script>
 function loadXMLDoc() {
@@ -50,31 +50,27 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table="<tr><th>Name</th><th>age</th><th>Gender</th><th>Address</th><th>Phone</th><th>Email ID</th></tr>";
+  var table="<tr><th>name</th><th>age</th><th>gender</th><th>address</th><th>phone</th><th>aadhar</th></tr>";
   var x = xmlDoc.getElementsByTagName("info");
   for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
-    x[i].getElementsByTagName("Name")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Age")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("age")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Gender")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("gender")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Address")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Phone No.")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("phone")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("E-Mail ID")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("aadhar")[0].childNodes[0].nodeValue +
     "</td></tr>";
     
   }
   document.getElementById("demo").innerHTML = table;
 }
 </script>
-<br>
-<br>
-<br>
-<br>
-<right><a href="index.html"><button style="background-color:green;color:black;width:10%; height:70px;" ><h2> HOME </h2></button></a> <!-- Button link --></right>
+<center><a href="index.html"><button style="background-color:lightgreen;color:black;width:10%; height:70px;" ><h2>HOME</h2></button></a> <!-- Button link --></center>
 </body>
 </html>
