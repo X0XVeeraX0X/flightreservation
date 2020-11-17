@@ -2,33 +2,33 @@
 <html>
 <style>
 table,th,td {
-  border : 1px solid black;
+  border : 2px solid black;
   border-collapse: collapse;
 }
 th,td {
   padding: 10px;
 }
 body {
-  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-family:"Arial Black", cursive, sans-serif;
   background-color:#blue ;
 }
 img {
-  border: 10px solid black;
+  border: 5px solid black;
 }
 
 h2{
-  color:black;
-  font-family: "Arial Black", Gadget, sans-serif
+  color:BLACK;
+  font-family: "MSLucida Sans Unicode", Gadget, sans-serif
 }
 
 h3{
-  color:black;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color:BLACK;
+  font-family: "Comic Sans", "Lucida Grande", sans-serif;
 }
 </style>
 <body>
-<center><h2>customer XML and DOM</h2></center>
-<h3>ONLINE FLIGHT RESERVATION!!!</h3>
+<center><h2>CUSTOMER DOM & XML</h2></center>
+<h3>ONLINE FLIGHT TICKET RESERVATION</h3>
 
 <button type="button" onclick="loadXMLDoc()">BOOK TICKETS</button>
 <br><br>
@@ -50,7 +50,7 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table="<tr><th>name</th><th>age</th><th>gender</th><th>address</th><th>phone</th><th>emailid</th></tr>";
+  var table="<tr><th>name</th><th>age</th><th>gender</th><th>address</th><th>phone</th><th>aadhar</th></tr>";
   var x = xmlDoc.getElementsByTagName("info");
   for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
@@ -64,14 +64,15 @@ function myFunction(xml) {
     "</td><td>" +
     x[i].getElementsByTagName("phone")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("emailid")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("aadhar")[0].childNodes[0].nodeValue +
     "</td></tr>";
     
   }
   document.getElementById("demo").innerHTML = table;
 }
 </script>
-  <br><br><br>
-<center><a href="index.html"><button style="background-color:LIGHTGREEN;color:black;width:10%; height:100px;" ><h2>HOME PAGE</h2></button></a> <!-- Button link --></center>
+<br>
+<br><br>
+<center><a href="index.html"><button style="background-color:LIGHTGREEN;color:black;width:10%; height:70px;" ><h2>HOME</h2></button></a> <!-- Button link --></center>
 </body>
 </html>
