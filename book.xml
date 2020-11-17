@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <flight>
-    <number>FS123T</number>
+    <number>f12345</number>
     <name>aaa</name>
-    <type>Economy</type>
+    <type>Business</type>
     <seat category="AC">
-        <date>30.11.2020</date>
+        <date>20.11.2020</date>
         <from>chennai</from>
-        <to>mumbai</to>
-        <availability>100</availability>
+        <to>madurai</to>
+        <availability>10</availability>
     </seat>
     <seat category="AC">
-        <date>30.11.2020</date>
+        <date>20.11.2020</date>
         <from>chennai</from>
-        <to>delhi</to>
-        <availability>50</availability>
+        <to>madurai</to>
+        <availability>25</availability>
     </seat>
     <seat category="AC">
-        <date>30.11.2020</date>
+        <date>20.11.2020</date>
         <from>chennai</from>
-        <to>vishakapattinam</to>
+        <to>coimbatore</to>
         <availability>30</availability>
     </seat>
 </flight>
